@@ -47,6 +47,6 @@ void Stack<Type,MaxSize>::dump(){
     int siz=body.size();
     for(int cnt=0;cnt<siz;cnt++){
         if(cnt>0) printf(" ");
-        printf("%d",body[siz-1-cnt]);
+        std::cout<<body[siz-1-cnt];
     }
 }
